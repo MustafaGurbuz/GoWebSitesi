@@ -1,0 +1,13 @@
+{{template "pageStart.html" .}}
+<div class="main-menu">
+        <button class="btn col-log-6 col-lg-offset-3 primary">Section-1</button>
+        <button class="btn col-log-6 col-lg-offset-3 primary">Section-2</button>
+        <button class="btn col-log-6 col-lg-offset-3 primary">Section-3</button>
+        <button class="btn col-log-6 col-lg-offset-3 primary">Section-4</button>
+        <button class="btn col-log-6 col-lg-offset-3 primary-light">Section-5</button>
+        {{if not .IsAdmin}}
+                <button class="btn col-log-6 col-lg-offset-3 admin-primary">Administration</button>
+        {{end}}
+        
+</div>
+{{template "pageEnd.html" .}}

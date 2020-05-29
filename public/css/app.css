@@ -1,0 +1,20 @@
+.container{
+    background-color: lightskyblue;
+    color: aqua;
+}
+.btn col-log-6 col-lg-offset-3 submit{
+    background-color: darkcyan;
+}
+btn col-log-6 col-lg-offset-3 primary{
+    font-family: "Arial Black";
+    color: darkred;
+    font-size: larger;
+}
+.user{
+    background-color: dodgerblue;
+    color: sienna;
+    border-style: dotted;
+    border-color: brown;
+    padding: 10px;
+    margin: 25px;
+}
